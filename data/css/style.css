@@ -1,0 +1,82 @@
+#head  {
+    background-image: url('../img/me.jpg');
+    /* jika menggunakan atribut "background", maka atribut "background-img tidak akan dimuat" (shorthand) */
+    /* background: no-repeat; */
+    background-repeat: no-repeat;
+    /* atribut "backgroud-size" memeiliki 3 properti : auto, containt, cover*/
+    background-size: cover;
+    /* background-position: center top; */
+    height: 100%;
+    width: 100%;
+    padding: 100px 50px;
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#head h1 {
+    font-size: 50px;
+}
+
+#head h1 b a {
+    text-decoration: none;
+    color: white;
+}
+
+#head #img {
+    height: 130px;
+}
+
+#navbar {
+    background-color: white;
+}
+
+#nav {
+    width: 100%;
+}
+
+#nav li a {
+    color: gray;
+}
+
+#content {
+    width: 50%;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+#footer {
+    background-color: grey;
+    padding: 20px 0px;
+}
+
+#footer li {
+    list-style: none;
+}
+
+
+#footer li a {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+#footer li i {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+#footer h5 {
+    color: white;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 992px) {
+    #content {
+        width: 75%;
+        text-align: center;
+        margin: 50px 0px;
+    }
+}
+
