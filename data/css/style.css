@@ -52,6 +52,7 @@
 
 #footer ul {
     margin-bottom: 0px;
+    padding: 0px;
 }
 
 #footer li {
@@ -72,10 +73,13 @@
     text-decoration: none;
 }
 
-#footer h4 {
-    color: white;
+#footer #title {
+    padding: 0px 10px;
+}
+
+#footer #title h4 {
     font-weight: bolder;
-    text-align: center;
+    color: white;
 }
 
 @media screen and (max-width: 992px) {
