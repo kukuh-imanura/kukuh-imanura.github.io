@@ -1,11 +1,11 @@
 # project-portofolio ✨
 
-Hi There 🙌
+hi there 🙌
 
-Welcome to my Portofolio Repository 😆
+welcome to my portofolio repository 😆
 
-Here, you can see my Project Collection 👀
+here, you can see my project collection 👀
 
-Dat Have or Will i Work On 📖
+dat have or will i work on 📖
 
-Have Fun ✨
+have fun ✨
