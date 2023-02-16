@@ -61,4 +61,37 @@ To https://github.com/kukuh-imanura/project.git
 branch 'master' set up to track 'origin/master'.
 
 Kukuh Imanura@DESKTOP-A15RMB0 MINGW64 /c/xampp/htdocs/project (master)
-$
+$ git add .
+
+Kukuh Imanura@DESKTOP-A15RMB0 MINGW64 /c/xampp/htdocs/project (master)
+$ git commit -m "add note folder"
+[master ee8e656] add note folder
+ 2 files changed, 64 insertions(+)
+ delete mode 100644 note.txt
+ create mode 100644 note/git.txt
+
+Kukuh Imanura@DESKTOP-A15RMB0 MINGW64 /c/xampp/htdocs/project (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.06 KiB | 362.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kukuh-imanura/project.git
+   e458fba..ee8e656  master -> master
+
+Kukuh Imanura@DESKTOP-A15RMB0 MINGW64 /c/xampp/htdocs/project (master)
+$ git pull
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 12 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (12/12), 3.10 KiB | 52.00 KiB/s, done.
+From https://github.com/kukuh-imanura/project
+   ee8e656..36e52dc  master     -> origin/master
+Updating ee8e656..36e52dc
+Fast-forward
+ README.md | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+ create mode 100644 README.md
