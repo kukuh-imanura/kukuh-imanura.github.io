@@ -1,0 +1,3 @@
+16/02/2023 
+- Belajar Dasar Git (Add, Commit, Push, Pull)
+- Update Footer "index.html"
