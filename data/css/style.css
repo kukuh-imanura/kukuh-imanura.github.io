@@ -50,8 +50,13 @@
     padding: 20px 0px;
 }
 
+#footer ul {
+    margin-bottom: 0px;
+}
+
 #footer li {
     list-style: none;
+    padding: 2px 0px;
 }
 
 
@@ -67,9 +72,10 @@
     text-decoration: none;
 }
 
-#footer h5 {
+#footer h4 {
     color: white;
     font-weight: bolder;
+    text-align: center;
 }
 
 @media screen and (max-width: 992px) {
