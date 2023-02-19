@@ -76,6 +76,32 @@
             <h5>Have some Fresh Idea?</h5>
             <p>Gimme dat shine a little ✨</p>
             <hr><br>
+            
+            <table>
+                
+                <?php
+
+                $csv = fopen("data/db/comment.csv","r");
+
+                while (($data = fgetcsv($csv, 1000, ",")) != False) {
+
+                ?>
+
+                <tr>
+                    <td><?php echo $data[1] ?></td>
+                    <td><?php echo $data[2] ?></td>
+                </tr>
+
+                <?php
+                
+                }
+
+                fclose($csv);
+
+                ?>
+
+            </table>
+
         </div>
     </div>
 

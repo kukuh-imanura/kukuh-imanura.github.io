@@ -1,10 +1,10 @@
 <?php
 
-$server = "127.0.0.1";
+$host = "127.0.0.1";
 $user = "root";
 $pass = "";
 
-$conn = mysqli_connect($server, $user, $pass);
+$conn = mysqli_connect($host, $user, $pass);
 
 if ($conn) {
     echo "Berhasil";
