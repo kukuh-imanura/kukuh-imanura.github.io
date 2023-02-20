@@ -35,6 +35,18 @@
     width: 100%;
 }
 
+#nav li {
+    position: relative;
+}
+
+#nav li ul {
+    position: relative;
+    /* display: inline-block; */
+    border: none;
+    text-align: center;
+    top: 0;
+}
+
 #nav li a {
     color: gray;
 }
@@ -46,19 +58,26 @@
 }
 
 #comment {
-    width: 70%;
+    width: 50%;
     background-color: whitesmoke;
     margin-bottom: 30px;
     border-radius: 10px;
     padding: 30px;
+    /* text-align: center; */
+}
+
+#comment h5 {
     text-align: center;
 }
 
-/* #comment td {
-    background-color: white;
-    border-radius: 5px;
-    border: 1px solid black;
-} */
+#comment td {
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* text-align: center; */
+    /* display: block; */
+}
 
 #footer {
     background-color: black;
