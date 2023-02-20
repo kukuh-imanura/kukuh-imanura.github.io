@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="data/css/style.css">
 
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
@@ -73,23 +72,29 @@
     <!-- COMMENT -->
     <div class="container" id="comment">
         <div class="jumbotron">
-            <h5>Have some Fresh Idea?</h5>
-            <p>Gimme dat shine a little ✨</p>
-            <hr><br>
+            <h5>COMMENT</h5>
+            <hr>
             
-            <table>
+            <table class="">
                 
                 <?php
 
                 $csv = fopen("data/db/comment.csv","r");
 
+                $firstline = true;
+
                 while (($data = fgetcsv($csv, 1000, ",")) != False) {
+
+                    if ($firstline) {
+                        $firstline = false;
+                        continue;
+                    }
 
                 ?>
 
                 <tr>
-                    <td><?php echo $data[1] ?></td>
-                    <td><?php echo $data[2] ?></td>
+                    <td id="box"><?php echo $data[1] ?></td>
+                    <td id="box"><?php echo $data[2] ?></td>
                 </tr>
 
                 <?php

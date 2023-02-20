@@ -49,9 +49,16 @@
     width: 70%;
     background-color: whitesmoke;
     margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
 }
+
+/* #comment td {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+} */
 
 #footer {
     background-color: black;
