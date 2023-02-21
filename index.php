@@ -22,7 +22,7 @@
         <div class="col-sm-6 col-12" id="img"></div>
         <div class="col-sm-6 col-12">
             <h6>Hi There! I'm</h6>
-            <h1><b><a href="https://www.instagram.com/kukuh_imanura">Kukuh Imanura Bagaskara</a></b></h1>
+            <h1><b><a href="https://www.instagram.com/kukuh_imanura">Kukuh Imanura</a></b></h1>
             <h5>Web Programmer</h5>
         </div>
     </div>
@@ -43,13 +43,6 @@
                             <li><a class="dropdown-item" id="dropdown" href="https://raw.githack.com/kukuh-imanura/glintsxamman/sweet/index.html">Sweet LP</a></li>
                             <li><a class="dropdown-item" id="dropdown" href="https://raw.githack.com/kukuh-imanura/glintsxamman/calculator/index.html">Calculator</a></li>
                         </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Menu 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Menu 3</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Gallery</a>
