@@ -52,10 +52,10 @@
                         <a class="nav-link" href="#">Menu 3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menu 4</a>
+                        <a class="nav-link" href="#">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menu 5</a>
+                        <a class="nav-link" href="#">CV</a>
                     </li>
                 </ul>
             </div>
