@@ -22,7 +22,7 @@
         <div class="col-sm-6 col-12" id="img"></div>
         <div class="col-sm-6 col-12">
             <h6>Hi There! I'm</h6>
-            <h1><b><a href="https://www.instagram.com/kukuh_imanura">Kukuh Imanura</a></b></h1>
+            <h1><b><a href="https://www.instagram.com/kukuh_imanura">Kukuh Imanura Bagaskara</a></b></h1>
             <h5>Web Programmer</h5>
         </div>
     </div>
@@ -76,7 +76,7 @@
     </div>
 
     <!-- COMMENT -->
-    <!-- <div class="container" id="comment">
+    <div class="container" id="comment">
         <div class="jumbotron">
             <h5>COMMENT</h5>
             <hr>
@@ -118,7 +118,7 @@
             </form>
 
         </div>
-    </div> -->
+    </div>
 
     <!-- FOOTER -->
     <footer class="footer" id="footer">
