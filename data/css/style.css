@@ -1,3 +1,10 @@
+#jumbotron {
+    background-color: gray;
+    border-radius: 10px;
+    /* height: 100%;
+    line-height: 100%; */
+}
+
 #head  {
     background-image: url('../img/me.jpg');
     /* jika menggunakan atribut "background", maka atribut "background-img tidak akan dimuat" (shorthand) */
