@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE</title>
+
+    <link rel="stylesheet" href="data/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script> -->
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="row" id="head">
+        <div class="col-sm-6 col-12" id="img"></div>
+        <div class="col-sm-6 col-12">
+            <h6>Hi There! I'm</h6>
+            <h1><b><a href="https://www.instagram.com/kukuh_imanura">Kukuh Imanura Bagaskara</a></b></h1>
+            <h5>Beginner Web Programmer</h5>
+        </div>
+    </div>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-md sticky-top" id="navbar">
+        <div class="container-fluid">
+            <a href=""></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav nav-justified" id="nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Project </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" id="dropdown" href="https://kukuh-imanura.github.io/adabumdes">ADA Bumdes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Collection </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" id="dropdown" href="https://raw.githack.com/kukuh-imanura/glintsxamman/sweet/index.html">Sweet LP</a></li>
+                            <li><a class="dropdown-item" id="dropdown" href="https://raw.githack.com/kukuh-imanura/glintsxamman/calculator/index.html">Calculator</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CV</a>
+                    </li>
+                    <!-- SEARCH BAR/LOGIN -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Search Bar</a>
+                    </li> -->
+                    <!-- ACTION BUTTON -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">CV</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- HEADLINE -->
+    <div class="container d-flex justify-content-center">
+        <div id="content">
+            <hr>
+            <h5>Who am I?</h5>
+            <p id="text">I'm Kukuh, you can call me Ku for the sort. Little 'bout me, I'm a Student at Sumbawa University of Technology, and currently didn't have a job. If you want to hire me, click the button bellow</p>
+            <a href="https://wa.me/+6285339283538">
+                <button class="btn btn-dark">Hire</button>
+            </a>
+            <hr>
+        </div>
+    </div>
+
+    <!-- COMMENT -->
+    <!-- <div class="container" id="comment">
+        <div class="jumbotron">
+            <h5>COMMENT</h5>
+            <hr>
+            
+            <table class="">
+                
+                <?php
+
+                $csv = fopen("data/db/comment.csv","r");
+
+                $firstline = true;
+
+                while (($data = fgetcsv($csv, 1000, ",")) != False) {
+
+                    if ($firstline) {
+                        $firstline = false;
+                        continue;
+                    }
+
+                ?>
+
+                <tr>
+                    <td><?php echo $data[1] ?></td>
+                    <td><?php echo $data[2] ?></td>
+                </tr>
+
+                <?php
+                
+                }
+
+                fclose($csv);
+
+                ?>
+
+            </table>
+
+            <form action="post">
+
+            </form>
+
+        </div>
+    </div> -->
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+        <div class="container">
+
+            <!-- CONTACT -->
+            <div class="row">
+
+                <div id="title">
+                    <h4>CONTACT</h4>
+                    <hr>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <ul id="contact">
+                        <li>
+                            <i class="bi bi-telephone-fill"></i>
+                            <a href="https://wa.me/+6285339283538">085339283538</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/kukuh-i-ab781221b/">Linkedin</a></li>
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope-fill"></i>
+                            <a href="kukuh.imanura.bagaskara@gmail.com">kukuh.imanura.bagaskara@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <ul id="contact">
+                        <li>
+                            <i class="bi bi-github"></i>
+                            <a href="https://github.com/kukuh-imanura">Github</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-instagram"></i>
+                            <a href="https://www.instagram.com/kukuh_imanura">Instagram</a></li>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- COPYRIGHT -->
+            <!-- <div class="row"></div> -->
+
+            <!-- TERM OF USE/PRIVACY POLICY -->
+            <!-- <div class="row"></div> -->
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script> -->
+</body>
+</html>
