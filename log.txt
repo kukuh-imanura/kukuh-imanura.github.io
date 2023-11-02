@@ -1,0 +1,16 @@
+[33mbaacce5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Revert "Delete note directory"
+[33mde9e01a[m[33m ([m[1;31morigin/main[m[33m)[m Delete note directory
+[33m36c0158[m add .gitignore
+[33m3b8cda8[m big update
+[33me82c998[m Remove folder docs
+[33m5309512[m Add folder docs
+[33mba8b20a[m Create text.txt
+[33m593d2ce[m Delete _config.yml
+[33mac4f3ce[m Delete .github/workflows directory
+[33m372147d[m Create deploy-github-pages.yml
+[33m3042f02[m Delete .github/workflows directory
+[33m949b7de[m Create main.yml
+[33m56032cc[m Delete .github/workflows directory
+[33m0cf9e0c[m Create static.yml
+[33m1645944[m Update README.md
+[33mca6bfac[m first commit
