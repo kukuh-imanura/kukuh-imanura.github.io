@@ -1,5 +1,0 @@
-- css pakai class (.)
-- js pakai id (#)
-- setiap section pakai (div) dan harus diberi nama
-- nama section harus sama dengan (id) atau (class)
-- jarak antar section max 50px
