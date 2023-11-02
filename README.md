@@ -32,11 +32,11 @@ def fungsi_contoh():
 | Baris 1, Kolom 1 | Baris 1, Kolom 2 |
 | Baris 2, Kolom 1 | Baris 2, Kolom 2 |
 
-* (Asterisk): \*
-_ (Underscore): \_
-# (Pound/Hash): \#
-[] (Kurung Siku): \[ dan \]
-() (Kurung Bulat): \( dan \)
+\ * (Asterisk): \*
+\ _ (Underscore): \_
+\ # (Pound/Hash): \#
+\ [] (Kurung Siku): \[ dan \]
+\ () (Kurung Bulat): \( dan \)
 
 ---
 ___
