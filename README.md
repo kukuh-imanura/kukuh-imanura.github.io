@@ -21,7 +21,7 @@
 
 ```python
 def fungsi_contoh():
-    print("Hello, World!")```
+    print("Hello, World!")
 
 | Header 1 | Header 2 |
 |----------|----------|
