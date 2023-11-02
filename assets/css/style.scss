@@ -1,0 +1,119 @@
+#jumbotron {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#head  {
+    // background: white url('../img/me.jpg') no-repeat scroll right top;
+    background: url('../img/me.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 100px 50px;
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 2px black;
+
+    #img {
+        height: 130px;
+    }
+
+    h1 {
+        font-size: 50px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+#navbar {
+    background-color: white;
+}
+
+#nav {
+    width: 100%;
+
+    li {
+        position: relative;
+
+        a {
+            color: gray;
+        }        
+
+        ul {
+            position: relative;
+            border: none;
+            text-align: center;
+            top: 0;
+        }
+    }
+}
+
+#content {
+    width: 50%;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+#comment {
+    width: 50%;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 30px;
+
+    h5 {
+        text-align: center;
+    }
+
+    td {
+        padding: 10px;
+    }
+}
+
+#footer {
+    background-color: black;
+    padding: 20px 0px;
+
+    ul {
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    li {
+        list-style: none;
+        padding: 2px 0px;
+
+        a {
+            color: white;
+            font-size: medium;
+            text-decoration: none;
+        }
+
+        i {
+            color: white;
+            font-size: medium;
+            text-decoration: none;
+        }
+        
+    }
+
+    #title {
+        padding: 0px 10px;
+
+        h4 {
+            font-weight: bolder;
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #content {
+        width: 75%;
+        text-align: center;
+        margin: 50px 0px;
+    }
+}
