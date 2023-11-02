@@ -1,0 +1,92 @@
+// DEKLARASI
+@font-face {
+    font-family: "Pacifico";
+    src: url("../font/Pacifico/Pacifico-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+// COLORS   ---
+    // BASIC    ---
+    $white      : white;
+    $white-1    : #eeeeee;
+    $white-2    : #dddddd;
+    $white-3    : #cccccc;
+    $tint       : rgba(255, 255, 255, 0.5);
+    $black      : black;
+    $black-1    : #111111;
+    $black-2    : #222222;
+    $black-3    : #333333;
+    $shade      : rgba(0, 0, 0, 0.5);
+    $gray       : gray;
+    $tone       : rgba(128, 128, 128, 0.5);
+
+    // QUATERNARY
+    $q-red          : #FF1F00;
+    $q-orange       : #FF5F00;
+    $q-gold         : #FF9F00;
+    $q-yellow       : #FFDF00;
+    $q-lime         : #BFFF00;
+    $q-green        : #3FFF00;
+    $q-green-blue   : #00FF7F;
+    $q-sea-blue     : #007FFF;
+    $q-blue         : #1F00FF;
+    $q-blue         : #1F00FF;
+    $q-purple       : #5F00FF;
+    $q-magenta      : #BF00FF;
+    $q-pink         : #FF007F;
+    // QUATERNARY-DARK
+    $d-red         : mix($q-red, $black, 50%);
+    $d-orange      : mix($q-orange, $black, 50%);
+    $d-gold        : mix($q-gold, $black, 50%);
+    $d-yellow      : mix($q-yellow, $black, 50%);
+    $d-lime        : mix($q-lime, $black, 50%);
+    $d-green       : mix($q-green, $black, 50%);
+    $d-green-blue  : mix($q-green-blue, $black, 50%);
+    $d-sea-blue    : mix($q-sea-blue, $black, 50%);
+    $d-blue        : mix($q-blue, $black, 50%);
+    $d-purple      : mix($q-purple, $black, 50%);
+    $d-magenta     : mix($q-magenta, $black, 50%);
+    $d-pink        : mix($q-pink, $black, 50%);
+    // QUATERNARY-PASTEL
+    $l-red         : mix($q-red, $white, 50%);
+    $l-orange      : mix($q-orange, $white, 50%);
+    $l-gold        : mix($q-gold, $white, 50%);
+    $l-yellow      : mix($q-yellow, $white, 50%);
+    $l-lime        : mix($q-lime, $white, 50%);
+    $l-green       : mix($q-green, $white, 50%);
+    $l-green-blue  : mix($q-green-blue, $white, 50%);
+    $l-sea-blue    : mix($q-sea-blue, $white, 50%);
+    $l-blue        : mix($q-blue, $white, 50%);
+    $l-purple      : mix($q-purple, $white, 50%);
+    $l-magenta     : mix($q-magenta, $white, 50%);
+    $l-pink        : mix($q-pink, $white, 50%);
+
+// NUMBERS  ---
+    $none   : 0px;
+    $xs     : 5px;
+    $s      : 10px;
+    $m      : 20px;
+    $l      : 30px;
+    $xl     : 50px;
+    $xxl    : 100px;
+    $xxxl   : 1000px;
+
+// STRING   ---
+    // FONT
+    $serif          : Georgia, 'Times New Roman', Times, serif;
+    $script         : Pacifico, cursive;
+    $display        : Montserrat, sans-serif;
+    $code           : 'Courier New', Courier, monospace;
+
+    // ERROR
+    // URL-IMG
+
+// BOOLEANS ---
+
+// LIST     ---
+
+// NULS     ---

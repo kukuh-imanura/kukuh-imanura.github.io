@@ -3,9 +3,10 @@ note/
 test/
 
 # File
-
+# _*.scss
 
 # Ekstensi
 *.txt
 *.log
 *.map
+*.zip

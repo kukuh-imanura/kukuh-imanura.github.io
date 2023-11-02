@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("../font/Pacifico/Pacifico-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
 #jumbotron {
   background-color: gray;
   border-radius: 10px;
