@@ -24,12 +24,24 @@ def fungsi_contoh():
     print("Hello, World!")
 ```
 
+> Ini adalah kutipan teks.
+
+
 | Header 1 | Header 2 |
 |----------|----------|
 | Baris 1, Kolom 1 | Baris 1, Kolom 2 |
 | Baris 2, Kolom 1 | Baris 2, Kolom 2 |
 
-Ini adalah teks yang ingin **digantikan**.
+* (Asterisk): \*
+_ (Underscore): \_
+# (Pound/Hash): \#
+[] (Kurung Siku): \[ dan \]
+() (Kurung Bulat): \( dan \)
+
+---
+___
+***
+
 
 
 # project-portofolio ✨
