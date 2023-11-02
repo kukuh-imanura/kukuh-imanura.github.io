@@ -1,0 +1,16 @@
+# # Ini adalah komentar
+# berkas-terabaikan.txt
+# direktori-terabaikan/
+# # Semua berkas dengan ekstensi .log akan diabaikan
+# *.log
+# # Semua berkas yang diawali dengan "backup_" akan diabaikan
+# /backup_*
+
+# Folder
+note
+test
+
+# File
+
+
+# Ekstensi
